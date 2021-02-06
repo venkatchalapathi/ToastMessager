@@ -37,7 +37,7 @@ Step 2. Add the dependency
 - BOTTOM_RIGHT : ToastMessager.showBottomRight(context,"Message")
 
 ## Sample
-<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="40" height="40" />
+<img src="https://github.com/venkatchalapathi/ToastMessager/blob/master/taps-recording.gif" width="300" height="500" />
 
 
 
