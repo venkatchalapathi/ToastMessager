@@ -36,7 +36,8 @@ Step 2. Add the dependency
 - BOTTOM_CENTER : ToastMessager.showBottomCenter(context,"Message")
 - BOTTOM_RIGHT : ToastMessager.showBottomRight(context,"Message")
 
-
+## Sample
+<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="40" height="40" />
 
 
 
