@@ -9,13 +9,13 @@ public class ToastMessager {
 
     public static void showTopLeft(Context context,String message){
         Toast toast = Toast.makeText(context, message, Toast.LENGTH_SHORT);
-        toast.setGravity(Gravity.TOP|Gravity.LEFT,0,0);
+        toast.setGravity(Gravity.TOP|Gravity.START,0,0);
         toast.show();
         //Toast.makeText(context, message, Toast.LENGTH_SHORT).show();
     }
     public static void showTopRight(Context context,String message){
         Toast toast = Toast.makeText(context, message, Toast.LENGTH_SHORT);
-        toast.setGravity(Gravity.TOP|Gravity.RIGHT,0,0);
+        toast.setGravity(Gravity.TOP|Gravity.END,0,0);
         toast.show();
         //Toast.makeText(context, message, Toast.LENGTH_SHORT).show();
     }
@@ -27,13 +27,13 @@ public class ToastMessager {
     }
     public static void showCenterRight(Context context,String message){
         Toast toast = Toast.makeText(context, message, Toast.LENGTH_SHORT);
-        toast.setGravity(Gravity.CENTER|Gravity.RIGHT,0,0);
+        toast.setGravity(Gravity.CENTER|Gravity.END,0,0);
         toast.show();
         //Toast.makeText(context, message, Toast.LENGTH_SHORT).show();
     }
     public static void showCenterLeft(Context context,String message){
         Toast toast = Toast.makeText(context, message, Toast.LENGTH_SHORT);
-        toast.setGravity(Gravity.CENTER|Gravity.LEFT,0,0);
+        toast.setGravity(Gravity.CENTER|Gravity.START,0,0);
         toast.show();
         //Toast.makeText(context, message, Toast.LENGTH_SHORT).show();
     }
@@ -45,13 +45,13 @@ public class ToastMessager {
     }
     public static void showBottomRight(Context context,String message){
         Toast toast = Toast.makeText(context, message, Toast.LENGTH_SHORT);
-        toast.setGravity(Gravity.BOTTOM|Gravity.RIGHT,0,0);
+        toast.setGravity(Gravity.BOTTOM|Gravity.END,0,0);
         toast.show();
         //Toast.makeText(context, message, Toast.LENGTH_SHORT).show();
     }
     public static void showBottomLeft(Context context,String message){
         Toast toast = Toast.makeText(context, message, Toast.LENGTH_SHORT);
-        toast.setGravity(Gravity.BOTTOM|Gravity.LEFT,0,0);
+        toast.setGravity(Gravity.BOTTOM|Gravity.START,0,0);
         toast.show();
         //Toast.makeText(context, message, Toast.LENGTH_SHORT).show();
     }
